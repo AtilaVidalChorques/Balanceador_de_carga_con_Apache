@@ -34,6 +34,7 @@ Creamos el archivo load-balancer.conf en el directorio /etc/apache2/sites-availa
 <img width="811" height="61" alt="imagen" src="https://github.com/user-attachments/assets/7763862a-ac13-4127-916a-cd86a9ec00c2" />
 
 IP Frontal web 1: 172.31.21.252
+
 IP Frontal web 2: 172.31.31.140
 
 <img width="686" height="276" alt="imagen" src="https://github.com/user-attachments/assets/d32175dd-e00c-49bc-b4de-8bd26e30a2cf" />
