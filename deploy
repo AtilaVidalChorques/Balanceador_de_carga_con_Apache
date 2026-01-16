@@ -1,0 +1,10 @@
+#!/bin/bash
+source .env
+cd /var/www/html
+rm -rf *
+git clone https://github.com/josejuansanchez/iaw-practica-lamp.git .
+# Ajustar configuración (suponiendo que existe un config.php)
+sed -i "s/database_name_here/$DB_NAME/" config.php
+sed -i "s/username_here/$DB_USER/" config.php
+sed -i "s/password_here/$DB_PASSWORD/" config.php
+sed -i "s/localhost/$DB_HOST/" config.php
